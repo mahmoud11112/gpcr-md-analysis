@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+env/
+.DS_Store
+-e 
+# MDAnalysis trajectory index caches
+.*_offsets.npz
+.*_offsets.lock
